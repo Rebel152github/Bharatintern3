@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Netflix</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- HEADER -->
+    <header>
+      <div class="netflixLogo">
+        <a id="logo" href="#home"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAAB4CAMAAAC93iy/AAAAclBMVEUAAADjCRToCRTuCRXrCRV1BQrCCBFOAwfgCRPVCRMdAQLRCRJJAwa1BxC3Bw9cBAgYAQJWAwdjBAgTAAGKBQxwBAnaCRMjAQN/BQtrBAmqBw8MAAE3AgVDAwaEBQw7AgUrAQSgBg6WBg0nAgMxAgT6ChYWjFmIAAAEL0lEQVR4nO2Z2bKiMBBAQxI2uYKggOCCovf/f3FIJ2yKM3inR2qq+jyxBMIhoZM0jBEEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAzSeyG1Oxc0n7vsrdH7KvmYGw/sWJsmz4cS7aM3eD66DCuroDzF9bdq2jPROPdv8LhVkOkd1xf7fiwHQtrhFCuJbceOTKWZ+ND3Lk191LX83Azri5QN/CgurMubApUULWo8aTk1Uipp+NvS628R6n8pZTVSeWgwY3GWVeX40lx56Kl/A9KsVJC2S3sQGPLEsXJdD+ZLCB11zVA1akYnMCSKl9J8ZZvkBKwbQ1O9VJdUfGbb2r47IOubzoMjpORsuQLKX/d4sTNwXOoNkM+OHVppbyuaHhdzZLaS3gXzVYEdxAJstR+UopPdvJKjk9pqWxcaIbUSUc823xelofk1ErxcFpqvZ245kuOT5mWeluKrU2n28JDiB2ylJXFC0jFuoHine7qFbaUPC8gpQM5r+HodFf/KynuHBaQ2g3GDX5Cl7JEtYBU1Y9waPF8KCXrSampa/CkBqO5QBp4FZ2UCsnPUmHsKmJ3htTeUL0hlfYN9VASR8oqpmYUGeAFf5aypABk+obUwW+l0OL5SKqJPl+v5n58NLK+kOpfznwpVptq/Du6FIRW/7iA1EVX0y5+EKW8NXyqyenzUkxPJAXiF9VK7cEmrF7O0udIiR98U90y4WHZjyBlRQ4IPLeUF2hGg8iL6LcznN6RcvW7E+d/IAWLNH4NHqT4euoNIo5TXaAKGCL6pgnTU8pPzyiY232OOHkkTSsV9qH9k1J1N6HBDH+tVCGXkDq2Y29z8ILm1Emd/CWk9v24IVKGRivVTy0/up6CSuFyjhgqOqn030g9XD+WSqDPZ7WOFl/4UsyblDLFDttNH9zfkTrebrd8tdkepqRCk6PQK1+8UNFLXeWEVFjY+/OuLtdh0Mfc+VIWF4J7me846/L4JGUSY4XOOfMAOUeRsH6yN55ReJzLBpPMfFvK3FIlQ+MnKfMam1ktbEistN9AKm+zZb9JO/9QCq5/klpBCakWUiatji/VvriPSekfHb6KD3oBjDZVH0gl3lwplVGXAylYjj1laLvcOp+UOgwSYzlsS5y/UyMpXeM4UKinV8sJbvE+UNyvdTMZL7pweEiiKEoeEif367UsmwDjOEHgZ5b5pnxlqKVsqE3qQK6nS8EKX6qWA6nouwlcWeCsrzu7iGLX/dH/sMMmv9yr05cbJ3B9GWSWgIiwCaETmyE31/0CaVYxlNp8Ny3SxF9djYu6bhuyVR23Uk2Y8bZ99W+dyZXO+6ib8TaY7s52EVc3lBvPID/GSdvh0m/4BnHqdqwsCGu0Ye/HrOx63TQcTqIsPk3N7paiipd+AoIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgiP+HX69GScTcyCWJAAAAAElFTkSuQmCC" alt="Logo Image"></a>
+      </div>      
+      <nav class="main-nav">                
+        <a href="#home">Home</a>
+        <a href="#tvShows">TV Shows</a>
+        <a href="#movies">Movies</a>
+        <a href="#originals">Originals</a>
+        <a href="#">Recently Added</a>
+        <!-- <a target="_blank" href="https://codepen.io/cb2307/full/NzaOrm">Portfolio</a>        -->
+      </nav>
+      <nav class="sub-nav">
+        <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+        <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+        <a href="#">Account</a>        
+      </nav>      
+    </header>
+    <!-- END OF HEADER -->
+    
+    <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div class="location" id="home">
+          <h1 id="home">Popular on Netflix</h1>
+          <div class="box">
+            <a href=""><img src="./images/popular/bridgerton.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/13 reasons why.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/365 days.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/chor nikal ke bhaga.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/class 0f 83.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/dhrishyam.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/ginny & georgie.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/money heist.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/stranger things.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/the old guard.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/the witchers.jpg" alt=""></a>
+            <a href=""><img src="./images/popular/virupaksha.jpg" alt=""></a>        
+          </div>
+      </div>
+      
+
+      <h1 id="myList">Trending Now</h1>
+      <div class="box">
+        <a href=""><img src="./images/trending/a man called otto.jpg" alt=""></a>
+        <a href=""><img src="./images/trending/faithfully yours.jpg" alt=""></a>
+        <a href=""><img src="./images/trending/sing 2.jpg" alt=""></a>
+        <a href=""><img src="./images/trending/ted.jpg" alt=""></a>
+        <a href=""><img src="./images/trending/the croods.jpg" alt=""></a>
+        <a href=""><img src="./images/trending/the mother.jpg" alt=""></a>                  
+      </div>
+      
+      <h1 id="tvShows">TV Shows</h1>
+      <div class="box">
+        <a href=""><img src="./images/tv shows/black knight.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/cat.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/class.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/death note.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/khakhee.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/kota factory.jpg" alt=""></a>
+        
+        <a href=""><img src="./images/tv shows/manifest.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/mismatched.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/never have ever.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/she.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/tooth pari.jpg" alt=""></a>
+        <a href=""><img src="./images/tv shows/xo kitty.jpg" alt=""></a>
+      </div>
+      
+
+      <h1 id="movies">Blockbuster Action & Adventure</h1>
+      <div class="box">
+        <a href=""><img src="./images/blockbuster/6 underground.jpg" alt=""></a>
+        <a href=""><img src="./images/blockbuster/extraction.jpg" alt=""></a>
+        <a href=""><img src="./images/blockbuster/mowgli the legend of the jungle.jpg" alt=""></a>
+        <a href=""><img src="./images/blockbuster/rrr.jpg" alt=""></a>
+        <a href=""><img src="./images/blockbuster/school for good and evil.jpg" alt=""></a>
+        <a href=""><img src="./images/blockbuster/spiderman.jpg" alt=""></a>               
+      </div>
+
+      <h1 id="originals">Netflix Originals</h1>
+      <div class="box">
+        <a href=""><img src="./images/originals/1899.jpg" alt=""></a>
+        <a href=""><img src="./images/originals/bard of blood.jpg" alt=""></a>
+        <a href=""><img src="./images/originals/fame game.jpg" alt=""></a>
+        <a href=""><img src="./images/originals/house of secrets.jpg" alt=""></a>
+        <a href=""><img src="./images/originals/kaleidoscope.jpg" alt=""></a>
+        <a href=""><img src="./images/originals/unfortunate events.jpg" alt=""></a>               
+      </div>
+    </section>
+     
+    <!-- END OF MAIN CONTAINER -->
+
+    <!-- LINKS -->
+    <section class="link">
+      <div class="logos">
+        <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+      </div>
+      <div class="sub-links">
+        <ul>
+          <li><a href="#">Audio and Subtitles</a></li>
+          <li><a href="#">Audio Description</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Legal Notices</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- END OF LINKS -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy 1997-2018 Netflix, Inc.</p>
+      <p>Carlos Avila &copy 2018</p>
+    </footer>
+  </div>
+</body>
+
+</html>
